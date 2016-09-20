@@ -5,8 +5,8 @@ from BeautifulSoup import *
 
 
 url = 'https://pr4e.dr-chuck.com/tsugi/mod/python-data/data/known_by_Dugald.html '
-position=int(raw_input('Enter Position'))
-count=int(raw_input('Enter Count'))
+position=2
+count=3
 
 #perform the loop "count" times.
 for i in range(0,count):
