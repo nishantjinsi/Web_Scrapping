@@ -51,11 +51,11 @@ def parse(urls ):
 
 def count(df):
     dic = dict()
-    x = df['Feed Title'].value_counts()
+    x = df['Content_URL'].value_counts()
     # Store these values into a column in the dataframe named as Count
     df['Count'] =  x.values
     # Drop the duplicate URLs from the dataframe to get a list of unique feeds
-    df = df.drop_duplicates(subset='Feed Title')
+    df = df.drop_duplicates(subset='Content_URL')
 
     return df
 
