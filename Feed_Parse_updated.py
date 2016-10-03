@@ -81,4 +81,4 @@ def count(df):
 ## Calling function parse to return the dataframe and storing it into an object --df
 df = parse(urls)
 ## Calling function count to print out a CSV with expected output
-print count(df)
+print list(count(df))
